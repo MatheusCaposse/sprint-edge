@@ -1,0 +1,72 @@
+.container-fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 90px;
+    padding: 20px;
+  }
+  
+  .grave, .moderada, .leve {
+    flex: 1 1 30%;
+    max-width: 30%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .grave {
+    background-color: rgba(158, 0, 0, 0.3);
+  }
+  
+  .moderada {
+    background-color: rgba(158, 103, 0, 0.3);
+  }
+  
+  .leve {
+    background-color: rgba(63, 158, 0, 0.3);
+  }
+  
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    text-align: left; /* Alinha o texto do título à esquerda */
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 7px;
+    text-align: left; /* Alinha o texto do parágrafo à esquerda */
+  }
+  
+  button {
+    display: block; /* Faz o botão se tornar um bloco */
+    width: 50%; /* Define a largura do botão para 50% do tamanho do formulário */
+    margin: 20px auto 0; /* Centraliza o botão horizontalmente */
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Garante que o texto dentro do botão esteja centralizado */
+  }
+  
+  .grave button {
+    background-color: red;
+  }
+  
+  .moderada button {
+    background-color: orange;
+  }
+  
+  .leve button {
+    background-color: green;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

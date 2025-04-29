@@ -1,0 +1,125 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid black;
+    padding: 30px;
+    margin: 100px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 500px; 
+    width: 90%; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); 
+    border-radius: 10px; 
+  }
+  
+  .contato .email,
+  .contato .assunto {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+  }
+  
+  .contato .description {
+    min-height: 150px;
+    width: 100%;
+    resize: vertical;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+  }
+  
+  button {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #005BBB;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .div-banner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .bannerContato {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+  }
+  
+  .sac {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto 100px auto;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  iframe {
+    width: 100vw;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .contato {
+      padding: 20px;
+      font-size: 16px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    .sac {
+      font-size: 16px;
+    }
+  
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .div-banner {
+      gap: 20px;
+    }
+  
+    .bannerContato {
+      max-width: 90%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }

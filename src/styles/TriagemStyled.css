@@ -1,0 +1,138 @@
+div h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #005BBB;
+}
+
+.triagem {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.triagem input {
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 30px;
+}
+
+.triagem select {
+    border-radius: 7px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 30px;
+}
+
+.triagem button {
+    padding: 20px 100px;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #005BBB;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.triagem button:hover {
+    transform: scale(1.1);
+}
+
+
+.ficha {
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 100px auto;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+.ficha img {
+    max-width: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.ficha p {
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.qrCode {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.numeroChamada {
+    font-size: 48px;
+    font-weight: 700;
+    color: #005BBB;
+    margin-top: 30px;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+
+@media (max-width: 600px) {
+    .triagem {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .triagem button {
+        padding: 15px 60px;
+        font-size: 18px;
+    }
+
+    .ficha {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .ficha p {
+        font-size: 16px;
+    }
+
+    .qrCode {
+        font-size: 18px;
+    }
+
+    .numeroChamada {
+        font-size: 36px;
+    }
+}
