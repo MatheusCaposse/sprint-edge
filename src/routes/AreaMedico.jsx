@@ -23,7 +23,7 @@ const AreaMedico = () => {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ id }) // Você pode ajustar o payload se necessário
+        body: JSON.stringify({ id }) 
       });
 
       const data = await response.json();
